@@ -37,21 +37,6 @@ to it after a long period of time.
 ## Why do RDM?
 A short YouTube video about a RDM horror story is here: [Research Data Snafu](https://www.youtube.com/watch?v=N2zK3sAtr-4)
 
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## What went wrong?
-What are some key takeaways from the video?
-
-:::::::::::::::::::::::: solution 
-
-- The data only had one copy and was stored on a USB which was in a box somewhere at the Author's house.
-- The data was in a format that could only be read by a proprietary program that no longer existed.
-- There was no way to reconstruct the data from the labels used because the Author didn't remember what they stood for.
-- There was no way to contact the other author to understand what the data labels were so the data was rendered useless.
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
-
 The benefits of RDM are:
 
 - Understanding of data and its collection methods, even after a year

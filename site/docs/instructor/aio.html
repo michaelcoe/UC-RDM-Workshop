@@ -508,18 +508,6 @@ your data on a dataset level.</p>
 <li>Any additional information necessary for understanding the
 files</li>
 </ul>
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Make sure to download the example README.txt. Pick a research project
-and answer the included questions.</p>
-</div>
-</div>
-</div>
 <p>While this episode focused on PLR, it is useful to document the
 individual datasets. Research Data Documentation Methods<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> summarizes many
 documentation methods that can be employed for research data.</p>
@@ -599,12 +587,20 @@ Methods</a>”<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.<
 <hr class="half-width">
 <p>This episode describes two possible ways to document your Research
 Data: A data-level README (DLR) and a data dictionary. The purpose is to
-get you thinking of how to document your particular data.
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-instructor</p>
+get you thinking of how to document your particular data.</p>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div class="accordion-body">
 <p>Should make the distinction between the overall project and the data
 clear.</p>
-<p>::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</p>
+</div>
+</div>
+</div>
+</div>
 <div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -657,59 +653,6 @@ of data is housed within, or they can look at the DLR that describes
 which data is in each folder. For an example dataset, you can look at
 this one on figshare: <a href="https://doi.org/10.26021/canterburynz.25621830.v1" class="external-link">example
 dataset</a>.</p>
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>For the above folder structure, the dataset starts with
-<code>folder1</code> and all folders within. The data concerns
-performance metrics of autonomous underwater vehicles (AUVs). Assume
-that <code>subfolder1</code> contains reference data from the following
-reference:</p>
-<p>Michael Coe, Stefanie Gutschmidt, Cost of Transport is not the whole
-story — A review, Ocean Engineering, Volume 313, Part 1, 2024, <a href="https://doi.org/10.1016/j.oceaneng.2024.119332" class="external-link uri">https://doi.org/10.1016/j.oceaneng.2024.119332</a>.</p>
-<p><code>file011.txt</code> is text responses for a survey pertaining to
-people’s views of AUVs.</p>
-<p><code>file012.csv</code> is comma-separated values (csv) of energy
-requirements for AUVs.</p>
-<p><code>file111.csv</code> is data pertaining to the speed of different
-AUV platforms.</p>
-<p><code>file112.csv</code> is data pertaining to the energy consumption
-of different AUV platforms.</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
-<div class="accordion-body">
-<p>This example solution is written for a text (.txt) format, but could
-easily be used for a markdown (.md). Both of these formats can be open
-universally. Note that your solution can be different and this is just
-an example.</p>
-<hr>
-<p>folder1 includes data for all figures included in this
-publication</p>
-<p>file011.txt contains text responses of people view of AUVs used to
-generate figure 1</p>
-<p>file012.csv contains new energy requirements for AUVs used to
-generate figure 2</p>
-<p>subfolder2 houses all the reference data from the following
-reference:</p>
-<p>file111.csv is data from the reference on the speed of different AUV
-platforms used in the generation of figure 3.</p>
-<p>file112.csv is data from the reference on energy consumption of
-different AUV platforms, also included in figure 2.</p>
-</div>
-</div>
-</div>
-</div>
 </section><section><h2 class="section-heading" id="data-dictionary">Data Dictionary<a class="anchor" aria-label="anchor" href="#data-dictionary"></a>
 </h2>
 <hr class="half-width">
@@ -792,90 +735,6 @@ identification.</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-<div id="discussion2" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Let’s assume that we have a csv where the first row is all the
-variable names and each row after is a data point. In keeping with our
-previous challenge, the first three variables are t, L, and U which
-correspond to time, length, and speed. How would you write a data
-dictionary for these three variables?</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
-<div class="accordion-body">
-<table class="table">
-<colgroup>
-<col width="36%">
-<col width="21%">
-<col width="21%">
-<col width="21%">
-</colgroup>
-<thead><tr>
-<th>Question</th>
-<th align="left">t</th>
-<th align="left">L</th>
-<th align="left">U</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>Variable name</td>
-<td align="left">time</td>
-<td align="left">Length</td>
-<td align="left">Velocity</td>
-</tr>
-<tr>
-<td>Variable description</td>
-<td align="left">timestep</td>
-<td align="left">length of the AUV</td>
-<td align="left">Velocity of the AUV</td>
-</tr>
-<tr>
-<td>Variable units</td>
-<td align="left">second</td>
-<td align="left">meter</td>
-<td align="left">meter per second</td>
-</tr>
-<tr>
-<td>Relationship to other variables</td>
-<td align="left">N/A</td>
-<td align="left">Partner variable to time</td>
-<td align="left">Partner variable to time</td>
-</tr>
-<tr>
-<td>Variable coding values and meanings</td>
-<td align="left">N/A</td>
-<td align="left">N/A</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td>Known issues with the data</td>
-<td align="left">N/A</td>
-<td align="left">Some lengths had to be estimated from figures</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td>Anything else to know about the data?</td>
-<td align="left">N/A</td>
-<td align="left">N/A</td>
-<td align="left">N/A</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -973,87 +832,6 @@ understanding your files if you come to them at a later time.</p>
 </div>
 </div>
 </div>
-<div id="card-sorting-exercise" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="card-sorting-exercise" class="callout-inner">
-<h3 class="callout-title">Card Sorting Exercise</h3>
-<div class="callout-content">
-<p>This is a card-sorting exercise, meaning you will need a stack of
-note cards or post-it notes to do this activity, ideally in three
-different colors. There is no one correct way to do this so feel free to
-play around, add new cards, and move cards however you want! Once you
-put your new organizational system into place, be sure to always put
-your files where they’re supposed to go.</p>
-<ol style="list-style-type: decimal">
-<li>
-<p>Take a stack of note cards or post-it notes in the first color
-and write the following labels on one card each, omitting any file types
-that you do not use in your research:</p>
-<ul>
-<li>Raw data</li>
-<li>Analyzed data</li>
-<li>Code</li>
-<li>Protocols</li>
-<li>Article drafts</li>
-<li>Figures</li>
-<li>My publications</li>
-<li>Literature PDFs</li>
-<li>Grant documents</li>
-<li>Research notes</li>
-</ul>
-</li>
-<li><p>Move cards around and group together file-type cards that you
-want to store together. Files that will be stored near each other in a
-folder hierarchy, but not together, should be placed near each other
-while file types expected to be stored completely separately should be
-away from other cards.</p></li>
-<li>
-<p>Create hierarchies in file organization by adding new “folder”
-cards in one of two types; use different colored cards for each folder
-type:</p>
-<ul>
-<li>Cards in the second color represent a single folder. These should be
-labeled with the folder name in quotations (e.g. “Literature” or “My
-publications”).</li>
-<li>Cards in the third color represent a group of folders, such as for
-folders organized by date or by project. Use only one card to represent
-the organizational pattern that will be repeated. These cards should be
-labeled with the organizational system in square brackets (e.g. [By
-date] or [By project]). Note: folders organized by date should, in real
-life, be labelled using the convention YYYYMMDD or YYYY-MM-DD to
-facilitate chronological sorting.</li>
-</ul>
-</li>
-<li><p>Move existing file-type cards/groups of file-type cards
-underneath the new folder cards to show the hierarchy of how a file type
-will be saved in a specific folder or group of folders.
-Organizational-group folders (cards in the third color) only need to be
-represented once in the card sorting, as they are assumed to represent
-multiple folders on a computer.</p></li>
-<li><p>Make copies of any type of card and add folder levels, as needed.
-Adjust placement and hierarchies until you are happy with the
-organizational system you developed.</p></li>
-<li><p>Record your organizational system in your lab notebook and/or a
-README.txt.</p></li>
-</ol>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Example Card Layout </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<figure><img src="../fig/files-postit.png" alt="example postit exercise solution" class="figure mx-auto d-block"><div class="figcaption">Example note organization</div>
-</figure>
-</div>
-</div>
-</div>
-</div>
 </section><section><h2 class="section-heading" id="create-a-file-naming-convention">Create a File Naming Convention<a class="anchor" aria-label="anchor" href="#create-a-file-naming-convention"></a>
 </h2>
 <hr class="half-width">
@@ -1089,107 +867,6 @@ time-related data. More information can be found on the corresponding <a href="h
 </div>
 </div>
 </div>
-<div id="file-nameing-convention-exercise" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="file-nameing-convention-exercise" class="callout-inner">
-<h3 class="callout-title">File nameing Convention Exercise</h3>
-<div class="callout-content">
-<p>Fill in each section for a group of related files following the
-instructions; an example for microscopy files is provided. This exercise
-may be redone as needed, as different groups of files require different
-naming conventions.</p>
-<p><strong><em>1. What group of files will this naming convention
-cover?</em></strong> You can use different conventions for different
-file sets.</p>
-<p>Example: This convention will apply to all of my microscopy files,
-from raw image through processed image.</p>
-<p><strong><em>2. What information (metadata) is important about these
-files and makes each file distinct? </em></strong> Ideally, pick three
-pieces of metadata; use no more than five. This metadata should be
-enough for you to visually scan the file names and easily understand
-what’s in each one.</p>
-<p>Example: For my images, I want to know date, sample ID, and image
-number for that sample on that date.</p>
-<ol style="list-style-type: decimal">
-<li>
-</li>
-<li>
-</li>
-<li>
-</li>
-<li>
-</li>
-<li>
-</li>
-</ol>
-<p><strong><em>3. Do you need to abbreviate any of the metadata or
-encode it?</em></strong> If any of the metadata from step 2 is described
-by lots of text, decide what shortened information to keep. If any of
-the metadata from step 2 has regular categories, standardize the
-categories and/or replace them with 2- or 3-letter codes; be sure to
-document these codes.</p>
-<p>Example: Sample ID will use a code made up of: a 2-letter project
-abbreviation (project 1 = P1, project 2 = P2); a 3-letter species
-abbreviation (mouse = “MUS”, fruit fly = “DRS”); and 3-digit sample ID
-(assigned in my notebook).</p>
-<p><strong><em>4. What is the order for the metadata in the file
-name?</em></strong> Think about how you want to sort and search for your
-files to decide what metadata should appear at the beginning of the file
-name. If date is important, use ISO 8601-formatted dates (YYYYMMDD or
-YYYY-MM-DD) at the beginning of the file names so dates sort
-chronologically.</p>
-<p>Example: My sample ID is most important so I will list it first,
-followed by date, then image number.</p>
-<ol style="list-style-type: decimal">
-<li>
-</li>
-<li>
-</li>
-<li>
-</li>
-<li>
-</li>
-<li>
-</li>
-</ol>
-<p><strong><em>5. What characters will you use to separate each piece of
-metadata in the file name?</em></strong> Many computer systems cannot
-handle spaces in file names. To make file names both computer- and
-human-readable, use dashes (-), underscores (_), and/or capitalize the
-first letter of each word in the file names. A good convention is to use
-underscores to separate unrelated pieces of metadata and dashes to
-separate related pieces of metadata for parsing and readability.</p>
-<p>Example: I will use underscores to separate metadata and dashes
-between parts of my sample ID.</p>
-<p><strong><em>7. Write down your naming convention
-pattern.</em></strong> Make sure the convention only uses alphanumeric
-characters, dashes, and underscores. Ideally, file names will be 32
-characters or less.</p>
-<p>Example: My file naming convention is
-“SA-MPL-EID_YYYYMMDD_###_status.tif” Examples are
-“P1-MUS-023_20200229_051_raw.tif” and “P2-DRS-
-285_20191031_062_composite.tif”.</p>
-<p><strong><em>8. Document this convention in a README.txt (or save this
-worksheet) and keep it with your files.</em></strong></p>
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Example Naming conventions </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<figure><img src="../fig/Briney-file-naming.png" alt="Example file naming convention" class="figure mx-auto d-block"><div class="figcaption">File naming example from Briney</div>
-</figure><figure><img src="../fig/Briney-folder-naming.png" alt="Example folder naming convention" class="figure mx-auto d-block"><div class="figcaption">Folder naming example from Briney</div>
-</figure>
-</div>
-</div>
-</div>
-</div>
 <div class="section level3">
 <h3 id="simple-version-control">Simple version control<a class="anchor" aria-label="anchor" href="#simple-version-control"></a>
 </h3>
@@ -1213,7 +890,7 @@ version control, the following scheme could be used:</p>
 </ul>
 </li>
 </ul>
-<div id="card-sorting-exercise" class="callout keypoints">
+<div id="concerning-date-formats" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
 </div>
@@ -1328,158 +1005,6 @@ organization.</p>
 </div>
 </div>
 </div>
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Answer the questions and then fill out the table of information about
-each possible storage and backup systems. Examine all of the options,
-evaluating them based on the criteria listed below. Then select primary
-storage and backup systems and, optionally, an alternate backup.</p>
-<p><strong>What is the estimated total data storage you will need over
-the next five years?</strong></p>
-<p><em>Example: I estimate that I will generate 100 GB of data over the
-next five years of my project.</em></p>
-<p><strong>Does your data require meeting any specific security
-standards? If so, what level of security?</strong></p>
-<p><em>Example: My data will include some human subjects data, so my
-storage systems must have restrictions on access but it’s not medical
-data so they don’t have to medical data compliant.</em></p>
-<p><strong>What storage and backup systems are available to you, such as
-through your institution, workplace, or elsewhere?</strong></p>
-<p><em>Example: I have the following systems available to me: my
-computer, a Time Machine backup, a departmental server,
-institution-licensed DropBox account, and Google Drive.</em></p>
-<p>An example table in .txt format is provided in the following link: <a href="../files/Example_Data_Storage.txt">Example Data Storage Table</a></p>
-<p><strong>Fill out the information in the table for each storage and
-backup system you are considering:</strong></p>
-<table class="table">
-<thead><tr>
-<th>Question</th>
-<th align="left">System</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>System name</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Is it storage or backup?</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>What is the cost?</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>What is the hardware type?</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Is the system backed up?</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>For backup systems, is backup automatic?</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>What level of security does the system provide?</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Is the system local or remote?</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Is there a limit to storage capacity?</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Who manages the system?</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Is it easy or difficult to use?</td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
-<div class="accordion-body">
-<p>Example table of answers</p>
-<table class="table">
-<colgroup>
-<col width="50%">
-<col width="50%">
-</colgroup>
-<thead><tr>
-<th>Question</th>
-<th align="left">Example</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>System name</td>
-<td align="left">Departmental server</td>
-</tr>
-<tr>
-<td>Is it storage or backup?</td>
-<td align="left">Storage</td>
-</tr>
-<tr>
-<td>What is the cost?</td>
-<td align="left">No cost for 10 GB and under. Cost is $5 per 10 GB per
-year after that.</td>
-</tr>
-<tr>
-<td>What is the hardware type?</td>
-<td align="left">Server, exact hardware type unknown.</td>
-</tr>
-<tr>
-<td>Is the system backed up?</td>
-<td align="left">No backup.</td>
-</tr>
-<tr>
-<td>For backup systems, is backup automatic?</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td>What level of security does the system provide?</td>
-<td align="left">Storage is password protected.</td>
-</tr>
-<tr>
-<td>Is the system local or remote?</td>
-<td align="left">System is local.</td>
-</tr>
-<tr>
-<td>Is there a limit to storage capacity?</td>
-<td align="left">Storage limit is 500 GB per research group.</td>
-</tr>
-<tr>
-<td>Who manages the system?</td>
-<td align="left">Departmental IT manages the server.</td>
-</tr>
-<tr>
-<td>Is it easy or difficult to use?</td>
-<td align="left">Very easy to use once set up.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
 </section><section><h2 class="section-heading" id="optimize-storage">Optimize storage<a class="anchor" aria-label="anchor" href="#optimize-storage"></a>
 </h2>
 <hr class="half-width">
@@ -1581,23 +1106,7 @@ classification column.</p>
 <td align="left">Public</td>
 </tr>
 </tbody>
-</table>
-<div id="discussion2" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p><strong>Pick your storage and backup systems</strong></p>
-<p><em>Example: My primary storage will be my computer with added
-security restrictions. I will use Time Machine as my first automatic
-backup and Research Drive, which is controlled access, as my second
-backup because it is remote.</em></p>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="test-your-backup">Test Your backup<a class="anchor" aria-label="anchor" href="#test-your-backup"></a>
+</table></section><section><h2 class="section-heading" id="test-your-backup">Test Your backup<a class="anchor" aria-label="anchor" href="#test-your-backup"></a>
 </h2>
 <hr class="half-width">
 <p>Backups are super important for your data, so it’s always good to
@@ -1608,29 +1117,6 @@ also good to know how to recover your files so that you don’t have to
 learn this for the first time while panicking about lost data. This
 short exercise walks you through getting a file off your backup to test
 that it is working and to learn how the data-recovery process works.</p>
-<div id="discussion3" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Pick a backup system and a file to recover and work through the
-steps. The hard part of this exercise is finding instructions for file
-recovery and recovering the file, which vary by backup system.</p>
-<ol style="list-style-type: decimal">
-<li>Identify where your data is backed up.</li>
-<li>Find instructions for recovering data from your backup system.</li>
-<li>Pick a data file from your computer.</li>
-<li>Follow the instructions from step 2 to get a copy of the data file
-from step 3 out of your backup system.</li>
-<li>If this process didn’t work, fix your backup system. If this process
-did work, congrats your backup is working and you know how to recover
-your files!</li>
-</ol>
-</div>
-</div>
-</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -1736,91 +1222,6 @@ The internet has many resources and videos going over how to use
 DMPTool. The following link is 13 min. video by <a href="https://www.youtube.com/watch?v=HWdmbXna2xs" class="external-link">Carnegie Mellon
 University Libraries</a> showing DMPTool and how to fill out the forms
 is provided.</p>
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Go to <a href="https://dmptool.org/" class="external-link">DMPTool</a> and sign in with
-your Canterbury e-mail. This should take you to a SSO page where you can
-input your credentials. From here, you will be able to link your
-Canterbury account with DMPTool.</p>
-</div>
-</div>
-</div>
-<div id="discussion2" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Start a DMP in DMPTool. Pick a project and answer the following
-questions to build your living DMP. This DMP may be changed at any time
-to improve practices. If you are doing collaborative research, work
-through this exercise with your collaborators to agree on shared
-conventions. Feel free to use your organizations supported DMP tool if
-there is one.</p>
-<p><strong>Note:</strong> If you don’t have a project in mind at the
-moment, you can create a test project by checking the appropriate box at
-the creation of the DMP in DMPtool.</p>
-<p><strong>Write a short summary of the project this DMP is
-for:</strong></p>
-<p><em>Example: This project uses mass spectrometry to identify isotopic
-composition of soil samples.</em></p>
-<p><strong>Where will data be stored? How will data be backed up? (See
-Exercise 4.1: Pick Storage and Backup Systems.)</strong></p>
-<p><em>Example: The data is generated on the mass spectrometer then
-copied to a shared lab server. The server is backed up by departmental
-IT.</em></p>
-<p><strong>How will you document your research? Where will your research
-notes be stored?</strong></p>
-<p><em>Example: Data collection and analysis is primarily documented in
-a laboratory notebook, organized by date. README.txt files add
-documentation to the digital files as needed.</em></p>
-<p><strong>How will your data be organized? (See Exercise 3.1: Set Up a
-File Organization System.)</strong></p>
-<p><em>Example: Each researcher has their own folder on the shared
-server. Data within my folder is organized in folders by sample site
-with subfolders labeled by sample ID. Sample ID consists of: two-letter
-sample site code, three-digit sample number, and date of sample
-collection formatted as YYYYMMDD (e.g. “MA006- 20230901” and
-“CB012-20100512”).</em></p>
-<p><strong>What naming convention(s) will you use for your data? (See
-Exercise 3.2: Create a File Naming Convention.)</strong></p>
-<p><em>Example: Files will be named with the sample ID, type of
-measurement, and stage in the analysis process; these pieces of
-information will be separated by underscores. Examples:
-“MA006-20230901_TIMS_raw” and “CB012-20100512_SIMS_analyzed”.</em></p>
-<p><strong>Do you need to do any version control on your files? How will
-that be done?</strong></p>
-<p><em>Example: Version control will be very simple through file naming,
-appending analysis information onto the end of file names to keep track
-of which version of the file it is.</em></p>
-<p><strong>How will data move through the collection and analysis
-pipelines?</strong></p>
-<p><em>Example: Once data is collected on the mass spectrometer, I will
-copy it to the correct folder on the shared server for analysis. Data
-will stay in its sample IDlabeled folder as it gets analyzed, with
-different file names to annotate analysis stage. Data that will be
-published will be copied into separate folders, organized by
-article.</em></p>
-<p><strong>Record any project roles and responsibilities around data
-management:</strong></p>
-<p><em>Example: It is each researcher’s responsibility to ensure that
-data moves through the analysis pipeline and is labeled correctly. The
-lab manager will ensure that the shared server stays organized and will
-periodically check that backups are working.</em></p>
-<p><strong>Record any other details on how data will be
-managed:</strong></p>
-<p><em>Example: Copies of this DMP will live in my top-level folder on
-the lab server so that others can find and use my data as
-needed.</em></p>
-</div>
-</div>
-</div>
 </section><section><h2 class="section-heading" id="determine-data-stewardship">Determine Data Stewardship<a class="anchor" aria-label="anchor" href="#determine-data-stewardship"></a>
 </h2>
 <hr class="half-width">
@@ -1830,64 +1231,6 @@ issues with supervisors and peers to make sure that there are no
 misunderstandings about who has what rights to use, retain, and share
 data. Many of these will be addressed in the living DMP, but we will
 separate them into their own category here.</p>
-<div id="discussion3" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Determine which research data should be discussed. Bring together the
-Principle Investigator, the researcher collecting the data, and anyone
-else who works with that data. As a group, answer the questions in the
-exercise, making sure that everyone agrees on the final decisions.
-Record the results of the discussion and save them with the project
-files.</p>
-<p><strong>Who is participating in this discussion?</strong></p>
-<p><em>Example: This discussion includes the graduate student who
-collected the data, the project Principle Investigator (PI), and the
-laboratory manager.</em></p>
-<p><strong>What data is being discussed?</strong> <em>Example: This
-discussion covers all of the data collected by the graduate student
-during their time at the university.</em></p>
-<p><strong>Are there security or privacy restrictions on the data and,
-if so, what are they?</strong></p>
-<p><em>Example: Some of the research data includes human subjects data.
-This data must be held securely with limited data sharing, as outlined
-in the IRB protocols.</em></p>
-<p><strong>Are there intellectual property limitations on the data and,
-if so, what are they?</strong></p>
-<p><em>Example: There are no intellectual property concerns for the
-data.</em></p>
-<p><strong>Are there any requirements to publicly share the data and, if
-so, what are they?</strong></p>
-<p><em>Example: This research was funded by the NIH, which requires data
-sharing. The laboratory plans to share all data reproducing published
-results with the exception of the human subjects data.</em></p>
-<p><strong>Who will store the copy of record of the data and for how
-long?</strong></p>
-<p><em>Example: The project PI will retain the copy of record of the
-data for at least 3 years after the end of the grant award, with an
-ideal 10 year retention period.</em></p>
-<p><strong>Who is allowed to keep a copy of the data after the project
-ends? Which data?</strong></p>
-<p><em>Example: The graduate student may keep a copy of all data except
-the human subjects data after they leave the university.</em></p>
-<p><strong>Who is allowed to reuse the data after the project ends?
-Which data? Are there any requirements for reuse, such as
-co-authorship?</strong></p>
-<p><em>Example: The graduate student may reuse and publish with the data
-collected during their time at the university but must offer
-co-authorship of any papers using the data to the project PI and any
-relevant lab members.</em></p>
-<p><strong>Who keeps any physical research notebooks after the project
-ends?</strong></p>
-<p><em>Example: The PI will keep all physical laboratory notebooks but
-the graduate student may make copies to retain for their personal
-records.</em></p>
-</div>
-</div>
-</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -1968,7 +1311,7 @@ sharing.</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>Many publishers and funders are now requiring researchers to share
 their data. Picking an appropriate repository and understanding how to
@@ -2015,65 +1358,6 @@ provisioned to you via ServiceNow.</p>
 <p>Some repositories charge fees for deposit, most often for large data
 (500 GB or larger). Figshare, for instance, has a limit of 20 GB for
 it’s free tier.</p>
-</div>
-</div>
-</div>
-<div id="pick-a-data-repository-1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="pick-a-data-repository-1" class="callout-inner">
-<h3 class="callout-title">Pick a Data Repository</h3>
-<div class="callout-content">
-<p>Identify the data that needs to be shared and work through repository
-selection from discipline-specific data repositories to more general
-data repositories. Once you have identified a repository for all of your
-data, deposit the data and record the corresponding permanent
-identifiers. Note that, depending on data types, you may need to deposit
-your data into multiple repositories (for example, a discipline-specific
-repository for one type of data and an institutional data repository for
-the rest of the data).</p>
-<p><strong>1. Identify all of the data that needs to be
-shared.</strong></p>
-<p><em>Example: My data to be shared includes: 1) genetic data for
-Drosophila; and 2) microscope images of flies.</em></p>
-<p><strong>2. Is there a known disciplinary data repository for some or
-all of the data? For example, is there a data repository used by
-everyone in your research area or required for your data type by your
-funding agency?</strong></p>
-<p>If so, deposit some or all of your data there. Go to step 7 if the
-repository will accept all of your data or go to the next question if
-there is still some data left to deposit.</p>
-<p><em>Example: The database FlyBase is used for Drosophila genes and
-genomes. My genetic data will be shared there.</em></p>
-<p><strong>3. Review the list of recommended data repositories from
-PLOS<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. Is
-there a logical disciplinary data repository for some or all of your
-data?</strong></p>
-<p>If so, deposit some or all of your data there. Go to step 7 if you
-have shared all of your data or go to the next question if there is
-still some data left to deposit.</p>
-<p><em>Example: There isn’t a logical disciplinary data repository for
-microscope images of flies.</em></p>
-<p><strong>4. Does your institution have a data repository?</strong></p>
-<p>If so, deposit the remainder of your data there and go to step 7.</p>
-<p><em>Example: Institutional Figshare. I will deposit my microscope
-images in Instutional Figshare.</em></p>
-<p><strong>5. Do you have a preferred generalist data repository<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>?</strong></p>
-<p>If so, deposit the remainder of your data there and go to step 7.</p>
-<p><em>Example: [All data has been shared already.]</em></p>
-<p><strong>6. Pick a generalist data repository<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> and deposit the
-remainder of your data.</strong></p>
-<p>Deposit your data and go to step 7.</p>
-<p><em>Example: [All data has been shared already.]</em></p>
-<p><strong>7. Record the permanent identifier, ideally a DOI, from each
-data deposit.</strong></p>
-<p>DOIs make data FAIR<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> and aid with data sharing compliance. If
-you did not receive a permanent identifier (such as a DOI, permanent
-URL, etc.) during deposit, return to step 2 and pick a different data
-repository for your data.</p>
-<p><em>Example: Figshare provides DOIs for all deposits; my permanent
-identifier is doi.org/10.22002/XXXXXXXXXXX.</em></p>
 </div>
 </div>
 </div>
@@ -2136,7 +1420,7 @@ order; this may be different than the authors of the article.</p>
 practice but not all data repositories have integrated ORCID yet).</p>
 <p>[ ] Record all funding information that applies to the dataset.</p>
 <p>[ ] Chose a license for reuse rights. Default license is CC0 (for
-more information on CC0<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a>).</p>
+more information on CC0<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>).</p>
 </div>
 <div class="section level3">
 <h3 id="deposit-data">Deposit Data<a class="anchor" aria-label="anchor" href="#deposit-data"></a>
@@ -2167,7 +1451,7 @@ Statement or as a citation.</p>
 sometimes required), there is little guidance on what data should be
 uploaded. Data to include in a repository is field specific, but we will
 present some guidelines here following the policies of the Nature
-Portfolio journals<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a>.</p>
+Portfolio journals<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>.</p>
 <blockquote>
 <p>Authors should provide their data at a level ‘rawness’ that allows it
 to be re-used, in alignment with accepted norms within their community.
@@ -2282,22 +1566,10 @@ any links that you are not going to use.
 Workbook. Caltech Library. <a href="https://doi.org/10.7907/z6czh-7zx60" class="external-link uri">https://doi.org/10.7907/z6czh-7zx60</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 <li id="fn2"><p>Briney, K. (2023). The Research Data Management
 Workbook. Caltech Library. <a href="https://doi.org/10.7907/z6czh-7zx60" class="external-link uri">https://doi.org/10.7907/z6czh-7zx60</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p>PLOS ONE. Recommended Repositories, 2023. URL <a href="https://journals.plos.org/%20plosone/s/recommended-repositories" class="external-link">https://journals.plos.org/
-plosone/s/recommended-repositories</a>.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
-<li id="fn4"><p>NIH. Generalist Repositories, 2023. URL <a href="https://sharing.nih.gov/datamanagement-%20and-sharing-policy/sharing-scientific-data/generalistrepositories" class="external-link">https://sharing.nih.gov/datamanagement-
-and-sharing-policy/sharing-scientific-data/generalistrepositories</a>.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
-<li id="fn5"><p>NIH. Generalist Repositories, 2023. URL <a href="https://sharing.nih.gov/datamanagement-%20and-sharing-policy/sharing-scientific-data/generalistrepositories" class="external-link">https://sharing.nih.gov/datamanagement-
-and-sharing-policy/sharing-scientific-data/generalistrepositories</a>.<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
-<li id="fn6"><p>Mark D. Wilkinson <em>et al</em>. The FAIR Guiding
-Principles for scientific data management and stewardship. Scientific
-Data, 3(1):160018, March 2016. ISSN 2052-4463. doi:
-10.1038/sdata.2016.18. URL <a href="../https:%20/www.nature.com/articles/sdata201618">https:
-//www.nature.com/articles/sdata201618</a>. Number: 1 Publisher: Nature
-Publishing Group.<a href="#fnref6" class="footnote-back">↩︎</a></p></li>
-<li id="fn7"><p>Creative Commons Wiki. CC0 use for data, 2014. URL <a href="https://wiki.%20creativecommons.org/wiki/CC0_use_for_data" class="external-link">https://wiki.
-creativecommons.org/wiki/CC0_use_for_data</a>.<a href="#fnref7" class="footnote-back">↩︎</a></p></li>
-<li id="fn8"><p>Scientific Data Data Policies. Nature 2024. URL <a href="https://www.nature.com/sdata/policies/data-policies" class="external-link">https://www.nature.com/sdata/policies/
-data-policies</a><a href="#fnref8" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Creative Commons Wiki. CC0 use for data, 2014. URL <a href="https://wiki.%20creativecommons.org/wiki/CC0_use_for_data" class="external-link">https://wiki.
+creativecommons.org/wiki/CC0_use_for_data</a>.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>Scientific Data Data Policies. Nature 2024. URL <a href="https://www.nature.com/sdata/policies/data-policies" class="external-link">https://www.nature.com/sdata/policies/
+data-policies</a><a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div></section><section id="aio-07-fair-and-care"><p>Content from <a href="07-fair-and-care.html">FAIR and CARE</a></p>
 <hr>
@@ -2438,37 +1710,6 @@ by discipline-specific data and metadata standards where possible, to
 ensure it retains important context. The Data Management Plan, README
 file, and Dataset README file are all parts of making your data
 reusable.</p>
-<div id="making-data-fair" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="making-data-fair" class="callout-inner">
-<h3 class="callout-title">Making data FAIR</h3>
-<div class="callout-content">
-<p>Thinking about your research data. What are some easy practical steps
-to make your data FAIR?</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<ul>
-<li>publish your research data in a publicly accessible repository when
-possible</li>
-<li>mint a persistent identifier for your research data</li>
-<li>use community accepted language in data and metadata</li>
-<li>specify the license and provenance for your research data.</li>
-<li>include metadata and README files.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
 </div>
 </section><section><h2 class="section-heading" id="why-use-care">Why use CARE?<a class="anchor" aria-label="anchor" href="#why-use-care"></a>
 </h2>
@@ -2589,36 +1830,6 @@ transfer, security requirements) and by whose authority
 referencing the mediated access process and alignment with FAIR and CARE
 data principles.</li>
 </ul>
-<div id="using-care-in-research" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="using-care-in-research" class="callout-inner">
-<h3 class="callout-title">Using CARE in research</h3>
-<div class="callout-content">
-<p>You’re a researcher working with Indigenous Data, what are some
-practical steps to take in terms of CARE?</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<ul>
-<li>consult with the specific peoples’ your data pertains to about how
-best to manage the storage and sharing of the data.</li>
-<li>utilize Indigenous Metadata when possible to properly attribute the
-data.</li>
-<li>be aware of your country’s models around IDGov and IDSov</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -2724,7 +1935,7 @@ through together, is also available<a href="#fn2" class="footnote-ref" id="fnref
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>We will all end up ending our project and having a good plan for your
 research data ensures it is available for researchers that might take up
@@ -2781,57 +1992,6 @@ into a central place and document the project. Working through the
 checklist results in project data being in one central location, well
 documented, and organized and formatted in a way to make future reuse
 easier.</p>
-<div id="prepare-data-checklist" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="prepare-data-checklist" class="callout-inner">
-<h3 class="callout-title">Prepare Data Checklist</h3>
-<div class="callout-content">
-<p>Gather all of the data from a project and work through the checklist
-to organize and document the data for future reuse. This challenge
-refers to several other challenges in the Workbook that should be
-completed during this process, if they have not been already. The
-following is adapted from<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p>
-<div class="section level3">
-<h3 id="prepare-data">Prepare Data<a class="anchor" aria-label="anchor" href="#prepare-data"></a>
-</h3>
-<p>[ ] Move all data into one central project folder; this folder may
-have sub-folders and should be organized however makes sense for your
-data.</p>
-<p>[ ] As necessary, convert data file types to copy data into more
-open/common file formats.</p>
-</div>
-<div class="section level3">
-<h3 id="back-up-your-research-notes">Back Up Your Research Notes<a class="anchor" aria-label="anchor" href="#back-up-your-research-notes"></a>
-</h3>
-<p>[ ] If your notes are electronic, save a copy in the project
-folder</p>
-<p>[ ] If your notes are physical, scan them and save a copy in the
-project folder.</p>
-</div>
-<div class="section level3">
-<h3 id="create-a-project-archive-folder">Create a Project Archive Folder<a class="anchor" aria-label="anchor" href="#create-a-project-archive-folder"></a>
-</h3>
-<p>[ ] Create an Archive Folder.</p>
-<p>[ ] Put the Archive folder in the project folder.</p>
-</div>
-<div class="section level3">
-<h3 id="create-a-project-level-readme-file">Create a Project-Level README File<a class="anchor" aria-label="anchor" href="#create-a-project-level-readme-file"></a>
-</h3>
-<p>[ ] If you haven’t done so already, write a Project-Level
-README.txt.</p>
-<p>[ ] Store a copy of the README file with the data.</p>
-</div>
-<div class="section level3">
-<h3 id="save-files-in-a-stable-location">Save Files in a Stable Location<a class="anchor" aria-label="anchor" href="#save-files-in-a-stable-location"></a>
-</h3>
-<p>[ ] Save the project folder on a storage system that you will have
-access to for the next several years.</p>
-</div>
-</div>
-</div>
-</div>
 </section><section><h2 class="section-heading" id="convert-data-file-types">Convert Data File Types<a class="anchor" aria-label="anchor" href="#convert-data-file-types"></a>
 </h2>
 <hr class="half-width">
@@ -2846,52 +2006,6 @@ not have your data at all! This challenge works through identifying
 possible alternative file types for the data’s proprietary file type
 before instructing you to make a copy of the data in the new file
 type.</p>
-<div id="convert-data-file-types-1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="convert-data-file-types-1" class="callout-inner">
-<h3 class="callout-title">Convert Data File Types</h3>
-<div class="callout-content">
-<p>For any data in a proprietary file type, identify the data and answer
-the following questions. Once you have picked a more open, common file
-type, make a copy of the data in that file type but do not delete the
-original data. (Keeping a copy in the original file format means that,
-while you access to the necessary software, your data has full
-functionality. If you lose access to the software, you’ll still have
-your data in some format, which is better than not having your data at
-all.)</p>
-<p><strong>Is your data stored in a proprietary file type? What file
-type and how does this limit future data reuse?</strong></p>
-<p><em>Example: Data is stored in a .CZI file format, which is a
-proprietary Zeiss microscope image format. These files do not open in
-other software.</em></p>
-<p><strong>Is it possible to convert your data to other file types? If
-so, list the possible types:</strong></p>
-<p><em>Example: I can use the Bio-Formats tool to convert .CZI files to:
-.AVI, .CH5, .DCM/.DICOM, .EPS/.EPSI/.PS, .ICS/.IDS, .JPG,
-.JP2/.J2K/.JPF, .MOV, .OME.TIFF/.OME.TIF, .OME/.OME.XML, .PNG, or
-.TIFF/.TIF.</em></p>
-<p><strong>Which of the possible file types are in common use? Which of
-the possible file types can be opened by multiple software
-programs?</strong></p>
-<p><em>Example: JPG, PNG, and TIFF are all image formats in common use.
-OMETIFF is a common image format within microscopy; most software will
-read the TIFF portion of the file but only some software will read the
-extra OME metadata. Common movie file types are AVI and MOV.</em></p>
-<p><strong>Of the possible options above, do you have a preference for a
-specific file type?</strong></p>
-<p><em>Example: I prefer an image file over a movie file. TIFF is best
-because it doesn’t lose resolution due to compression and can store all
-of the 4-dimensional image layers. OME-TIFF gives all of the benefits of
-TIFF but with added metadata.</em></p>
-<p><strong>Pick one of the more open or common file types and copy your
-important data files into that file type. Do not delete the original
-files.</strong></p>
-<p><em>Example: I will convert my data to OME-TIFF files.</em></p>
-</div>
-</div>
-</div>
 </section><section><h2 class="section-heading" id="create-an-archive-folder">Create an Archive Folder<a class="anchor" aria-label="anchor" href="#create-an-archive-folder"></a>
 </h2>
 <hr class="half-width">
@@ -2903,74 +2017,6 @@ Archive folder should only contain a small subset of the most important
 documents that are likely to be reused; you may still need to go through
 all of your files but, in the majority of instances, you will save time
 by easily finding what you need in the Archive folder.</p>
-<div id="create-an-archive-folder-1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="create-an-archive-folder-1" class="callout-inner">
-<h3 class="callout-title">Create an Archive Folder</h3>
-<div class="callout-content">
-<p>This challenge consists of a checklist of the key documents that are
-likely to be most useful in a research project archive. Create a
-separate folder within the larger project folder (or in a highly visible
-place within the storage system) labelled “Archive”. Copy – do not move
-– the files on this checklist into the Archive folder. Add copies other
-important research documents, as needed. Remember, the Archive folder
-does not need to be comprehensive, so focus on the subset of files that
-are most likely to be reused or referenced in the future. Adapted from<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>.</p>
-<div class="section level3">
-<h3 id="project-documentation">Project Documentation<a class="anchor" aria-label="anchor" href="#project-documentation"></a>
-</h3>
-<p>[ ] README file of project information</p>
-</div>
-<div class="section level3">
-<h3 id="data-snapshots">Data Snapshots<a class="anchor" aria-label="anchor" href="#data-snapshots"></a>
-</h3>
-<p>[ ] Important raw data</p>
-<p>[ ] Key data analyses</p>
-<p>[ ] Final published data</p>
-</div>
-<div class="section level3">
-<h3 id="code">Code<a class="anchor" aria-label="anchor" href="#code"></a>
-</h3>
-<p>[ ] Analysis code</p>
-<p>[ ] Record software version, as appropriate</p>
-</div>
-<div class="section level3">
-<h3 id="other-research-documents">Other Research Documents<a class="anchor" aria-label="anchor" href="#other-research-documents"></a>
-</h3>
-<p>[ ] Protocols</p>
-<p>[ ] Survey instruments</p>
-</div>
-<div class="section level3">
-<h3 id="research-notes">Research Notes<a class="anchor" aria-label="anchor" href="#research-notes"></a>
-</h3>
-<p>[ ] Scans of research notebook</p>
-<p>[ ] Digital notes</p>
-</div>
-<div class="section level3">
-<h3 id="images">Images<a class="anchor" aria-label="anchor" href="#images"></a>
-</h3>
-<p>[ ] Flat files of figures (e.g. .JPG or .TIFF)</p>
-<p>[ ] Editable image files (e.g. .XLSX or .PSD)</p>
-</div>
-<div class="section level3">
-<h3 id="publications">Publications<a class="anchor" aria-label="anchor" href="#publications"></a>
-</h3>
-<p>[ ] Published articles in .PDF format</p>
-<p>[ ] Accepted version of articles in editable document format
-(e.g. .DOCX)</p>
-<p>[ ] Poster files</p>
-</div>
-<div class="section level3">
-<h3 id="administrative-documents">Administrative Documents<a class="anchor" aria-label="anchor" href="#administrative-documents"></a>
-</h3>
-<p>[ ] Grant proposals</p>
-<p>[ ] Grant progress reports and final report</p>
-</div>
-</div>
-</div>
-</div>
 </section><section><h2 class="section-heading" id="serpate-from-the-organization">Serpate from the Organization<a class="anchor" aria-label="anchor" href="#serpate-from-the-organization"></a>
 </h2>
 <hr class="half-width">
@@ -2979,68 +2025,6 @@ For how common this occurrence is, it represents a critical transition
 during which data may be lost. This checklist enumerates a number of
 important steps that researchers can take to ensure that they retain the
 appropriate data yet leave behind what belongs to the institution.</p>
-<div id="seperating-from-your-organization" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="seperating-from-your-organization" class="callout-inner">
-<h3 class="callout-title">Seperating from your Organization</h3>
-<div class="callout-content">
-<p>The researcher leaving the institution should work through this
-checklist to ensure they keep the proper information while returning
-what does not belong to them. The researcher and project administrator
-may also jointly work through the extended version of this exercise, the
-Data Departure Checklist<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
-<div class="section level3">
-<h3 id="retain-copies-of-data-that-you-have-permission-to-keep">Retain Copies of Data that You Have Permission to Keep<a class="anchor" aria-label="anchor" href="#retain-copies-of-data-that-you-have-permission-to-keep"></a>
-</h3>
-<p>[ ] If you have not done so already, under Data Stewardship,
-determine what data you may retain</p>
-<p>[ ] Identify and keep pertinent research data from personal
-devices</p>
-<p>[ ] Identify and keep pertinent research data from storage systems
-(e.g. AWS/Azure, Box, campus HPC, Dropbox, Electronic Lab Notebook,
-Globus, Google Drive, lab/department/college servers, Microsoft
-OneDrive, Microsoft Sharepoint, or shared collaborator drives)</p>
-<p>[ ] When appropriate, make a copy of research notes</p>
-</div>
-<div class="section level3">
-<h3 id="delete-personal-information-and-remove-personal-devices">Delete Personal Information and Remove Personal Devices<a class="anchor" aria-label="anchor" href="#delete-personal-information-and-remove-personal-devices"></a>
-</h3>
-<p>[ ] Remove personal information from lab devices</p>
-<p>[ ] Remove personal devices from lab</p>
-<p>[ ] Remove personal access to shared accounts (e.g. lab Github, lab
-repository page, lab website, mailing lists, or social media)</p>
-</div>
-<div class="section level3">
-<h3 id="return-lab-hardware">Return Lab Hardware<a class="anchor" aria-label="anchor" href="#return-lab-hardware"></a>
-</h3>
-<p>[ ] Individual computer / workstation</p>
-<p>[ ] Tablet(s)</p>
-<p>[ ] Peripherals (e.g. keyboard, mouse, monitor)</p>
-<p>[ ] External drives</p>
-<p>[ ] Other lab equipment (e.g. cameras, recording devices)</p>
-</div>
-<div class="section level3">
-<h3 id="update-research-administration-documents-as-necessary">Update Research Administration Documents, As Necessary<a class="anchor" aria-label="anchor" href="#update-research-administration-documents-as-necessary"></a>
-</h3>
-<p>[ ] Update/transfer Institutional Review Board</p>
-<p>[ ] Update/transfer IACUC</p>
-<p>[ ] Update/transfer Data Use Agreements (DUA)</p>
-<p>[ ] Update/transfer Material Transfer Agreements (MTA)</p>
-<p>[ ] Update/transfer research grants</p>
-</div>
-<div class="section level3">
-<h3 id="handle-email">Handle Email<a class="anchor" aria-label="anchor" href="#handle-email"></a>
-</h3>
-<p>[ ] Set out of office, providing forwarding information</p>
-<p>[ ] Forward/backup important emails</p>
-<p>[ ] Check with University Archivist or Records Manager for retention
-policies (depends on rank)</p>
-</div>
-</div>
-</div>
-</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -3071,12 +2055,6 @@ any links that you are not going to use.
 Workbook. Caltech Library. <a href="https://doi.org/10.7907/z6czh-7zx60" class="external-link">https://doi.org/10.7907/z6czh-7zx60</a>.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 <li id="fn2"><p>Abigail Goben and Kristin A. Briney. Data Departure
 Checklist, August 2023. <a href="https://doi.org/10.7907/h314-4x51" class="external-link">https://doi.org/10.7907/h314-4x51</a>.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p>Kristin A. Briney. Project Close-Out Checklist for
-Research Data, May 2020b. <a href="https://doi.org/10.7907/yjph-sa32" class="external-link">https://doi.org/10.7907/yjph-sa32</a>.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
-<li id="fn4"><p>Kristin A. Briney. Project Close-Out Checklist for
-Research Data, May 2020b. <a href="https://doi.org/10.7907/yjph-sa32" class="external-link">https://doi.org/10.7907/yjph-sa32</a>.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
-<li id="fn5"><p>Abigail Goben and Kristin A. Briney. Data Departure
-Checklist, August 2023. <a href="https://doi.org/10.7907/h314-4x51" class="external-link">https://doi.org/10.7907/h314-4x51</a>.<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div></section>
 </div>
@@ -3125,9 +2103,9 @@ Checklist, August 2023. <a href="https://doi.org/10.7907/h314-4x51" class="exter
   "creativeWorkStatus": "active",
   "url": "https://michaelcoe.github.io/Data-Management-Training.git/instructor/aio.html",
   "identifier": "https://michaelcoe.github.io/Data-Management-Training.git/instructor/aio.html",
-  "dateCreated": "2024-10-08",
-  "dateModified": "2025-05-23",
-  "datePublished": "2025-05-23"
+  "dateCreated": "2025-05-27",
+  "dateModified": "2025-05-27",
+  "datePublished": "2025-05-27"
 }
 
   </script><script>

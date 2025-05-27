@@ -62,13 +62,6 @@ In general, a PLR should include:
 - File organization and naming conventions
 - Any additional information necessary for understanding the files
 
-::::::::::::::::::::::::::::::::::::: challenge 
-
-Make sure to download the example README.txt. 
-Pick a research project and answer the included questions.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
 While this episode focused on PLR, it is useful to document the individual datasets. Research Data Documentation Methods[^2] summarizes many documentation methods that can be employed for research data. 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 

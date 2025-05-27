@@ -61,21 +61,6 @@ To make research data interoperable, use community-accepted languages, [formats]
 ### Re-usable
 To make research data reusable, it should come with a clear human and machine-readable license and [provenance](https://rd-alliance.org/groups/research-data-provenance.html) information on how it was collected and generated. It should also abide by discipline-specific data and metadata standards where possible, to ensure it retains important context. The Data Management Plan, README file, and Dataset README file are all parts of making your data reusable.
 
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## Making data FAIR
-Thinking about your research data. What are some easy practical steps to make your data FAIR?
-
-:::::::::::::::::::::::: solution 
-
-- publish your research data in a publicly accessible repository when possible
-- mint a persistent identifier for your research data
-- use community accepted language in data and metadata
-- specify the license and provenance for your research data.
-- include metadata and README files.
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Why use CARE?
 CARE principles are developed by the [Global Indigenous Data Alliance](https://www.gida-global.org/) stands for
@@ -126,20 +111,6 @@ control of Indigenous data at each stage of the data lifecycle. More information
 - Establish and maintain a mediated access process (e.g,. email request or form) linked to the publish description. This process should follow agreed governance processes and ideally, take a people and purpose-oriented approach to granting access.
 - Create a data sharing agreement to define and record who the data is shared with, for what purpose, under what conditions (e.g. method of transfer, security requirements) and by whose authority (governance).
 - Produce a data availability statement within the publication (e.g. journal article, thesis) linking to the description, possibly referencing the mediated access process and alignment with FAIR and CARE data principles.
-
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## Using CARE in research
-You're a researcher working with Indigenous Data, what are some practical steps to take in terms of CARE?
-
-:::::::::::::::::::::::: solution 
-
-- consult with the specific peoples' your data pertains to about how best to manage the storage and sharing of the data.
-- utilize Indigenous Metadata when possible to properly attribute the data.
-- be aware of your country's models around IDGov and IDSov
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 

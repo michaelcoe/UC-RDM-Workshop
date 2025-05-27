@@ -24,6 +24,7 @@ This data Documentation episode based on Chapter 2 of "[The Research Data Manage
 ## Introduction
 
 This episode describes two possible ways to document your Research Data: A data-level README (DLR) and a data dictionary. The purpose is to get you thinking of how to document your particular data.
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 Should make the distinction between the overall project and the data clear.
@@ -65,44 +66,6 @@ We see from the example project that there is a PLR under the folder ```project`
 
 A DLR describes the data in each folder. Think of a researcher that might download your data repository for the first time. They are looking for a certain dataset that is described by the files under ```subfolder1```. The researcher will have two options here: they can open each data set/data dictionary in each folder to see what type of data is housed within, or they can look at the DLR that describes which data is in each folder. For an example dataset, you can look at this one on figshare: [example dataset](https://doi.org/10.26021/canterburynz.25621830.v1).
 
-::::::::::::::::::::::::::::::::::::: challenge 
-
-For the above folder structure, the dataset starts with ```folder1``` and all folders within. The data concerns performance metrics of autonomous underwater vehicles (AUVs). Assume that ```subfolder1``` contains reference data from the following reference:
-
-Michael Coe, Stefanie Gutschmidt, Cost of Transport is not the whole story — A review, Ocean Engineering, Volume 313, Part 1, 2024, https://doi.org/10.1016/j.oceaneng.2024.119332.
-
-```file011.txt``` is text responses for a survey pertaining to people's views of AUVs.
-
-```file012.csv``` is comma-separated values (csv) of energy requirements for AUVs.
-
-```file111.csv``` is data pertaining to the speed of different AUV platforms.
-
-```file112.csv``` is data pertaining to the energy consumption of different AUV platforms.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: solution 
-
-This example solution is written for a text (.txt) format, but could easily be used for a markdown (.md). Both of these formats can be open universally. Note that your solution can be different and this is just an example.
-
---------------------------------------------------------------------------------------------------------
-
-folder1 includes data for all figures included in this publication
-
-file011.txt contains text responses of people view of AUVs used to generate figure 1
-
-file012.csv contains new energy requirements for AUVs used to generate figure 2
-
-subfolder2 houses all the reference data from the following reference:
-
-file111.csv is data from the reference on the speed of different AUV platforms used in the generation of 
-figure 3.
-
-file112.csv is data from the reference on energy consumption of different AUV platforms, also included in 
-figure 2.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## Data Dictionary
 
 Ideally, a spreadsheet is formatted with a row of variable names at the top, followed by rows of data going down. This makes easy for data to be used in any data analysis software (interoperability is a good thing) but makes it impossible to document a spreadsheet within the file itself. For this reason, it’s useful to create a data dictionary to describe the spreadsheet so that others can interpret the data. A data dictionary describes the variables in a spreadsheet, aiding in data interpretation. It should include:
@@ -131,26 +94,6 @@ The following is an example of a data dictionary.
 | Variable coding values and meanings | Coding values and meanings: BL = Badlands NP; DV = Death Valley NP; GT = Grand Teton NP; JT = Joshua Tree NP; ZN = Zion NP |
 | Known issues with the data | Some Badlands samples were collected outsideof the park boundaries; see latitude and longitude variables for specific locations. |
 | Anything else to know about the data? | Older data (pre-2013) used one-letter abbreviations for site code but this was updated for clarity and ease of identification. |
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: challenge 
-
-Let's assume that we have a csv where the first row is all the variable names and each row after is a data point. In keeping with our previous challenge, the first three variables are t, L, and U which correspond to time, length, and speed. How would you write a data dictionary for these three variables?
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: solution 
-
-| Question | t | L | U |
-| ------- | :--- | :--- | :--- |
-| Variable name | time | Length | Velocity |
-| Variable description | timestep | length of the AUV | Velocity of the AUV |
-| Variable units | second | meter | meter per second |
-| Relationship to other variables | N/A | Partner variable to time | Partner variable to time
-| Variable coding values and meanings | N/A | N/A | N/A |
-| Known issues with the data | N/A | Some lengths had to be estimated from figures | N/A |
-| Anything else to know about the data? | N/A | N/A | N/A |
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

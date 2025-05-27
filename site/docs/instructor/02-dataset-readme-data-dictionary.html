@@ -392,12 +392,20 @@ Methods</a>”<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.<
 <section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a></h2>
 <hr class="half-width"><p>This episode describes two possible ways to document your Research
 Data: A data-level README (DLR) and a data dictionary. The purpose is to
-get you thinking of how to document your particular data.
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-instructor</p>
+get you thinking of how to document your particular data.</p>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div class="accordion-body">
 <p>Should make the distinction between the overall project and the data
 clear.</p>
-<p>::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</p>
+</div>
+</div>
+</div>
+</div>
 <div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -448,58 +456,6 @@ of data is housed within, or they can look at the DLR that describes
 which data is in each folder. For an example dataset, you can look at
 this one on figshare: <a href="https://doi.org/10.26021/canterburynz.25621830.v1" class="external-link">example
 dataset</a>.</p>
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>For the above folder structure, the dataset starts with
-<code>folder1</code> and all folders within. The data concerns
-performance metrics of autonomous underwater vehicles (AUVs). Assume
-that <code>subfolder1</code> contains reference data from the following
-reference:</p>
-<p>Michael Coe, Stefanie Gutschmidt, Cost of Transport is not the whole
-story — A review, Ocean Engineering, Volume 313, Part 1, 2024, <a href="https://doi.org/10.1016/j.oceaneng.2024.119332" class="external-link uri">https://doi.org/10.1016/j.oceaneng.2024.119332</a>.</p>
-<p><code>file011.txt</code> is text responses for a survey pertaining to
-people’s views of AUVs.</p>
-<p><code>file012.csv</code> is comma-separated values (csv) of energy
-requirements for AUVs.</p>
-<p><code>file111.csv</code> is data pertaining to the speed of different
-AUV platforms.</p>
-<p><code>file112.csv</code> is data pertaining to the energy consumption
-of different AUV platforms.</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
-<div class="accordion-body">
-<p>This example solution is written for a text (.txt) format, but could
-easily be used for a markdown (.md). Both of these formats can be open
-universally. Note that your solution can be different and this is just
-an example.</p>
-<hr><p>folder1 includes data for all figures included in this
-publication</p>
-<p>file011.txt contains text responses of people view of AUVs used to
-generate figure 1</p>
-<p>file012.csv contains new energy requirements for AUVs used to
-generate figure 2</p>
-<p>subfolder2 houses all the reference data from the following
-reference:</p>
-<p>file111.csv is data from the reference on the speed of different AUV
-platforms used in the generation of figure 3.</p>
-<p>file112.csv is data from the reference on energy consumption of
-different AUV platforms, also included in figure 2.</p>
-</div>
-</div>
-</div>
-</div>
 </section><section><h2 class="section-heading" id="data-dictionary">Data Dictionary<a class="anchor" aria-label="anchor" href="#data-dictionary"></a></h2>
 <hr class="half-width"><p>Ideally, a spreadsheet is formatted with a row of variable names at
 the top, followed by rows of data going down. This makes easy for data
@@ -555,64 +511,6 @@ locations.</td>
 site code but this was updated for clarity and ease of
 identification.</td>
 </tr></tbody></table></div>
-</div>
-</div>
-<div id="discussion2" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Let’s assume that we have a csv where the first row is all the
-variable names and each row after is a data point. In keeping with our
-previous challenge, the first three variables are t, L, and U which
-correspond to time, length, and speed. How would you write a data
-dictionary for these three variables?</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
-<div class="accordion-body">
-<table class="table"><colgroup><col width="36%"><col width="21%"><col width="21%"><col width="21%"></colgroup><thead><tr><th>Question</th>
-<th align="left">t</th>
-<th align="left">L</th>
-<th align="left">U</th>
-</tr></thead><tbody><tr><td>Variable name</td>
-<td align="left">time</td>
-<td align="left">Length</td>
-<td align="left">Velocity</td>
-</tr><tr><td>Variable description</td>
-<td align="left">timestep</td>
-<td align="left">length of the AUV</td>
-<td align="left">Velocity of the AUV</td>
-</tr><tr><td>Variable units</td>
-<td align="left">second</td>
-<td align="left">meter</td>
-<td align="left">meter per second</td>
-</tr><tr><td>Relationship to other variables</td>
-<td align="left">N/A</td>
-<td align="left">Partner variable to time</td>
-<td align="left">Partner variable to time</td>
-</tr><tr><td>Variable coding values and meanings</td>
-<td align="left">N/A</td>
-<td align="left">N/A</td>
-<td align="left">N/A</td>
-</tr><tr><td>Known issues with the data</td>
-<td align="left">N/A</td>
-<td align="left">Some lengths had to be estimated from figures</td>
-<td align="left">N/A</td>
-</tr><tr><td>Anything else to know about the data?</td>
-<td align="left">N/A</td>
-<td align="left">N/A</td>
-<td align="left">N/A</td>
-</tr></tbody></table></div>
-</div>
 </div>
 </div>
 <div id="keypoints1" class="callout keypoints">
@@ -701,9 +599,9 @@ Methods”. November 22. <a href="https://doi.org/10.7907/rt4k-2d76" class="exte
   "creativeWorkStatus": "active",
   "url": "https://michaelcoe.github.io/Data-Management-Training.git/instructor/02-dataset-readme-data-dictionary.html",
   "identifier": "https://michaelcoe.github.io/Data-Management-Training.git/instructor/02-dataset-readme-data-dictionary.html",
-  "dateCreated": "2024-10-08",
+  "dateCreated": "2025-05-27",
   "dateModified": "2025-05-23",
-  "datePublished": "2025-05-23"
+  "datePublished": "2025-05-27"
 }
 
   </script><script>
