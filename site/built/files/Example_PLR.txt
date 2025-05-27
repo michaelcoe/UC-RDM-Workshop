@@ -1,0 +1,23 @@
+Project documented by this README.txt: ____________________
+
+Write a brief project description:
+Example: The Data Doubles project was a 4-year, IMLS-funded research project examining student perceptions of privacy in library learning analytics.
+
+What is the time period the project was done over?
+Example: The project was conducted between summer 2018 and summer 2022.
+
+Who worked on the project?
+Example: Eight researchers from eight different instutions worked on the project, including: KMLJ, AA, KB, AG, MP, MR, DS, and MS.
+
+Where are the data, code, and other files are stored?
+Example: Research files are stored on Google Drive, with the exception that participant data is stored in IU-hosted Box. Survey data is also in Qualtrics. Code is on GitHub. The shared literature library is in Zotero.
+
+How and where is the project documented?
+Example: Documentation for the project is in Google Drive. Notes on team decisions from meetings are in the DataDoubles/Meetings folder. Notes on data are in the DataDoubles/Research folder.
+
+How are files organized? Are any naming conventions used and, if so,
+what are they (see Chapter 3)?
+Example: All data is in the DataDoubles/Data folder, with subfolders labelled by interview theme code. Each site has its own folder within the project folder for individual site files. Interview data files are named with: interview theme, site, interview ID, interview date, and data type/analysis stage (e.g. “PRO_BL03_20180222_Audio.mp3” and “AWA_MK01_20180222_Notes.pdf”). Please see the living data management plan for complete set of codes and more details.
+
+What else does someone need to know to understand these files?
+Example: Additional documentation on the project and public research files are available on OSF.

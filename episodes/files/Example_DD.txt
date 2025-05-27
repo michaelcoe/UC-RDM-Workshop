@@ -1,0 +1,20 @@
+------------------------------------------
+Question 			Variable
+------------------------------------------
+Variable name
+
+Variable description
+
+Variable units
+
+Relationship to other
+variables
+
+Variable coding values
+and meanings
+
+Known issues with the
+data
+
+Anything else to know
+about the data?

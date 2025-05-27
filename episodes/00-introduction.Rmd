@@ -1,0 +1,63 @@
+---
+title: 'Research Data Management'
+teaching: 10
+exercises: 0
+---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What should I do for proper Research Data Management?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Learn what is involved with Research Data Management
+- Build a checklist of things that should be done to handle Research Data
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+## What is Research Data Management (RDM)
+
+RDM involves practices and choices that simplify the process of finding, comprehending, 
+and utilizing research data for you, your collaborators, and your future self. These 
+practices encompass the entire data life cycle, from collection and analysis to sharing 
+and reuse. Research is hard enough as it is without having to
+fight with your files, so the goal of data management is for you to maximize
+your time doing research instead of spending extra time with file handling.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+Emphasize that proper Research Data Management is a way to make dealing with data
+a better experience. It allows for understanding your data even after comming back
+to it after a long period of time.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Why do RDM
+
+Most researchers have spent time, at some point in their careers, digging through
+their computer to find a specific file that can’t be located. It’s incredibly frustrating
+and a waste of time and resources, especially if you end up recollecting
+missing data. The good news is that it is possible to avoid this situation entirely
+by strategically managing your data better.
+
+Done well, RDM means:
+
+- Understanding of data and its collection methods, even after a year
+- Quick and easy retrieval of desired files
+- Prevention of data loss, even if your hard drive crashes
+- Clarity around the rights and responsibilities you have over your data
+- Knowledge of how and where to share your data to comply with your funder’s
+data sharing policy
+- Ability to pick up and easily reuse data from a past project
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- RDM is really about helping researchers understand their data
+- RDM helps researchers keep their data safe and backed up
+- RDM helps researchers use their data even after leaving it for a long period
+- RDM allows you to more easily share your research data
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+

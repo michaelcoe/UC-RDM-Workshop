@@ -1,0 +1,30 @@
+----------------------------------------------
+Question 				System
+----------------------------------------------
+System name
+
+Is it storage or backup?
+
+What is the cost?
+
+What is the hardware type?
+
+Is the system backed up?
+
+For backup systems, is
+backup automatic?
+
+What level of security
+does the system provide?
+
+Is the system local or
+remote?
+
+Is there a limit to
+storage capacity?
+
+Who manages the
+system?
+
+Is it easy or difficult to
+use?
