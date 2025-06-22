@@ -60,11 +60,7 @@ project
 |        |    file112_dictionary.txt
 ```
 
-We see from the example project that there is a PLR under the folder ```project``` and a DLR in the top level of the first dataset, signified by ```folder1```.
-
-## Dataset-level README (DLR)
-
-A DLR describes the data in each folder. Think of a researcher that might download your data repository for the first time. They are looking for a certain dataset that is described by the files under ```subfolder1```. The researcher will have two options here: they can open each data set/data dictionary in each folder to see what type of data is housed within, or they can look at the DLR that describes which data is in each folder. For an example dataset, you can look at this one on figshare: [example dataset](https://doi.org/10.26021/canterburynz.25621830.v1).
+We see from the example project that there is a PLR under the folder ```project``` and a DLR in the top level of the first dataset, signified by ```folder1```. For this workshop, we will only go over what a data dictionary is, as a data-level README is similar to a project-level README but for data.
 
 ## Data Dictionary
 

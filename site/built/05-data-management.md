@@ -51,9 +51,7 @@ showing DMPTool and how to fill out the forms is provided.
 It is often helpful to be up front about requirements and permissions
 around research data. This exercise encourages you to discuss these
 issues with supervisors and peers to make sure that there are no misunderstandings
-about who has what rights to use, retain, and share data. Many of these will be
-addressed in the living DMP, but we will separate them into their own category
-here.
+about who has what rights to use, retain, and share data.
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 

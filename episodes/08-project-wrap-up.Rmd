@@ -48,6 +48,7 @@ We will all end up ending our project and having a good plan for your research d
 When leaving UC, your UC account is given an expiration date. It is important to understand what will happen to your data once your UC account is decommissioned.
 
 The following is a basic checklist specific to UC cloud storage:
+
 - Any “corporate” UC data should be moved to appropriate UC storage 
 - Data you currently share with UC colleagues and to which they will still need access to after your departure needs to be transferred to them. 
 - Remove your personal data
@@ -71,7 +72,7 @@ Similar to OneDrive, your data will be deleted. In the case of Dropbox, you have
 
 ## Prepare Data for Future Use
 
-This checklist challenge walks you through steps to gather your data into a central place and document the project. Working through the checklist results in project data being in one central location, well documented, and organized and formatted in a way to make future reuse easier.
+Make sure your project data is in one central location, well documented, and organized and formatted in a way to make future reuse easier.
 
 ## Convert Data File Types
 
@@ -84,6 +85,8 @@ When data is in a proprietary file type, it’s always a good idea to copy the d
 to not have your data at all! This challenge works through identifying possible
 alternative file types for the data’s proprietary file type before instructing you to
 make a copy of the data in the new file type.
+
+An example of this would be to convert all your time series data to **.csv**.
 
 ## Create an Archive Folder
 
@@ -99,7 +102,7 @@ time by easily finding what you need in the Archive folder.
 
 Researchers regularly leave organizations in order to take new jobs.
 For how common this occurrence is, it represents a critical transition during
-which data may be lost. This checklist enumerates a number of important steps
+which data may be lost. The above enumerates a number of important steps
 that researchers can take to ensure that they retain the appropriate data yet
 leave behind what belongs to the institution.
 
